@@ -1,257 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apollo - Learn, Build & Showcase</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Erika Ayu Febrianti</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white">
-    <!-- Header -->
-    <header class="border-b border-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <!-- Logo -->
-                <a href="#" class="flex items-center gap-2 pl-2">
-                    <img src="Assets/images/logo-header.png" alt="Apollo Logo" class="h-10 md:h-20 w-auto object-contain">
-                </a>
 
-
-                <!-- Navigation -->
-
-
-                <!-- Auth buttons -->
-                <div class="flex items-center gap-3">
-                    <nav class="hidden md:flex items-center gap-10">
-                        <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
-                        <a href="#" class="text-gray-700 hover:text-gray-900">Features</a>
-                    </nav>
-
-                    <button class="px-6 py-2 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50 font-medium">
-                        Sign in
-                    </button>
-                    <button class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium">
-                        Sign up
-                    </button>
-                </div>
-            </div>
+<body>
+    <header>
+        <div>
+            <h1>My Portfolio</h1>
+            <nav aria-label="Navigasi utama">
+                <a href="#about">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <!-- Left content -->
-                <div class="space-y-6">
-                    <h1 class="text-5xl md:text-6xl font-bold text-blue-600 leading-tight">
-                        LEARN, BUILD, & SHOWCASE<br>ALL IN ONE PLATFORM
-                    </h1>
-
-                    <p class="text-gray-600 text-lg leading-relaxed">
-                        APOLLO is the Advanced Programming and Online Learning Laboratory that combines LMS, Project Management, and Portfolio in a seamless ecosystem. Learn new skills, collaborate on real projects, and showcase your achievements—all within one integrated platform.
+    <main>
+        <section id="about">
+            <div>
+                <img src="https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg" alt="Profil Ahmad Rizki" />
+                <div>
+                    <h2>Halo, Saya Ahmad Rizki</h2>
+                    <p>
+                        Saya adalah seorang Web Developer dan UI/UX Designer dengan passion dalam menciptakan pengalaman
+                        digital yang menarik dan intuitif. Dengan pengalaman lebih dari 3 tahun, saya telah mengerjakan
+                        berbagai proyek dari website
+                        perusahaan hingga aplikasi mobile.
                     </p>
-
-                    <div class="flex gap-4">
-                        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium">
-                            Get Started for Free
-                        </button>
-                        <button class="px-6 py-3 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50 font-medium">
-                            Explore Features
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Right illustration -->
-                <div class="flex justify-center">
-                    <div class="w-full h-80 md:h-96 relative">
-                        <svg viewBox="0 0 300 400" class="w-full h-full">
-                            <defs>
-                                <linearGradient id="rocketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" stop-color="#0052cc" />
-                                    <stop offset="100%" stop-color="#0052cc" />
-                                </linearGradient>
-                            </defs>
-
-                            <!-- Left side geometric shapes -->
-                            <rect x="50" y="80" width="40" height="40" rx="8" fill="#0052cc" opacity="0.3" />
-                            <circle cx="80" cy="50" r="8" fill="#0052cc" opacity="0.5" />
-                            <line x1="100" y1="120" x2="140" y2="80" stroke="#0052cc" stroke-width="2" opacity="0.4" />
-
-                            <!-- Center rocket -->
-                            <g transform="translate(150, 100)">
-                                <!-- Rocket body -->
-                                <rect x="-20" y="-40" width="40" height="80" rx="10" fill="#ff8c00" />
-                                <!-- Rocket window -->
-                                <circle cx="0" cy="-15" r="8" fill="#0052cc" />
-                                <!-- Rocket fins -->
-                                <polygon points="-20,-20 -40,-10 -30,10" fill="#0052cc" />
-                                <polygon points="20,-20 40,-10 30,10" fill="#0052cc" />
-                                <!-- Rocket flame -->
-                                <polygon points="-12,40 0,60 12,40" fill="#ff8c00" opacity="0.7" />
-                            </g>
-
-                            <!-- Right side geometric shapes -->
-                            <rect x="210" y="100" width="40" height="40" rx="8" fill="#0052cc" opacity="0.3" />
-                            <circle cx="240" cy="200" r="6" fill="#0052cc" opacity="0.5" />
-                            <line x1="200" y1="160" x2="240" y2="200" stroke="#0052cc" stroke-width="2" opacity="0.4" />
-
-                            <!-- Bottom accent dots -->
-                            <circle cx="100" cy="280" r="4" fill="#ff8c00" />
-                            <circle cx="200" cy="290" r="4" fill="#0052cc" opacity="0.6" />
-                        </svg>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Features Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-purple-50">
-        <div class="max-w-7xl mx-auto">
-            <!-- Section header -->
-            <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What You'll Get With Apollo</h2>
-                <p class="text-gray-600 text-lg">
-                    A powerful ecosystem designed to help you learn faster, build smarter, and showcase better.
-                </p>
-            </div>
-
-            <!-- Feature cards -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Card 1: Learning Management -->
-                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-                    <div class="mb-6 w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Learning Management System</h3>
-                    <p class="text-gray-600 leading-relaxed">Master programming skills with structured modules, interactive lessons, quizzes and coding challenges. Learn by doing, track your progress, and stay on the path to becoming job-ready.</p>
-                </div>
-
-                <!-- Card 2: Project Management -->
-                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-                    <div class="mb-6 w-16 h-16 bg-teal-100 rounded-xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Project Management</h3>
-                    <p class="text-gray-600 leading-relaxed">Turn your knowledge into real-world projects. Collaborate with teammates, manage tasks, and track progress - just like working on real-world projects.</p>
-                </div>
-
-                <!-- Card 3: Portfolio Management -->
-                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-                    <div class="mb-6 w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54-2.16-2.66c-.23-.29-.61-.37-.95-.23-.34.13-.56.46-.56.82v5.24h12v-3.98c0-.36-.22-.69-.56-.82-.34-.13-.72-.06-.95.23z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Portfolio Management</h3>
-                    <p class="text-gray-600 leading-relaxed">Showcase your best work and achievements to the world. Your Apollo profile can be instantly added to your portfolio to share with recruiters, peers, and the world.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-blue-50">
-        <div class="max-w-3xl mx-auto text-center">
-            <!-- Rocket icon -->
-            <div class="mb-8 flex justify-center">
-                <img src="Assets/icons/RoketCTA.png" alt="">
-                <!-- <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8m0 0l-3-3m3 3l3-3" />
-                </svg> -->
-            </div>
-
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Ready to Launch Your Journey?</h2>
-            <p class="text-gray-600 text-lg mb-8">
-                Join Apollo today and experience the all-in-one ecosystem to learn programming, build real projects, and showcase your portfolio.
-            </p>
-            <button class="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium text-lg">
-                Get Started Free
-            </button>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-    <!-- Company info -->
-    <div>
-        <div class="flex items-center gap-2 mb-4">
-            <img src="Assets/images/logo-footer.png" alt="Apollo Logo" class="h-2 md:h-4 w-auto object-contain">
-        </div>
-        <p class="text-gray-400 mb-6">
-            Advanced Programming and Online Learning Laboratory
-        </p>
-        <div class="space-y-3 text-gray-400">
-            <div class="flex items-center gap-3">
-                <img src="Assets/icons/solar_phone-linear.png" alt="">
-                <span>+62 1234 5678 901</span>
-            </div>
-            <div class="flex items-center gap-3">
-                <img src="Assets/icons/material-symbols_mail-outline.png" alt="">
-                <span>apollolab@edu.com</span>
-            </div>
-            <div class="flex items-center gap-3">
-                <img src="Assets/icons/tdesign_location.png" alt="">
-                <span>Kampus 4 Universitas Ahmad Dahlan</span>
-            </div>
-        </div>
-    </div>
-
-
-
-                <!-- Quick Links -->
+        <section id="projects">
+            <div>
+                <h2>Project Saya</h2>
                 <div>
-                    <h3 class="font-bold text-lg mb-6">Quick Links</h3>
-                    <ul class="space-y-3 text-gray-400">
-                        <li><a href="#" class="hover:text-white">Home</a></li>
-                        <li><a href="#" class="hover:text-white">Features</a></li>
-                        <li><a href="#" class="hover:text-white">How it works</a></li>
-                    </ul>
-                </div>
+                    <article>
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="E-Commerce Website" />
+                        <div>
+                            <h3>E-Commerce Website</h3>
+                            <p>Platform jual beli online dengan fitur lengkap dan desain modern.</p>
+                            <a href="#"> Lihat </a>
+                        </div>
+                    </article>
 
-                <!-- Resources -->
+                    <article>
+                        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Mobile Banking App" />
+                        <div>
+                            <h3>Mobile Banking App</h3>
+                            <p>Aplikasi perbankan mobile dengan interface yang user-friendly dan aman.</p>
+                            <a href="#"> Lihat </a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="https://images.pexels.com/photos/3184656/pexels-photo-3184656.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Creative Portfolio" />
+                        <div>
+                            <h3>Creative Portfolio</h3>
+                            <p>Portfolio website untuk menampilkan karya desain dengan tampilan yang elegan.</p>
+                            <a href="#"> Lihat </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div>
+                <h2>Hubungi Saya</h2>
                 <div>
-                    <h3 class="font-bold text-lg mb-6">Resources</h3>
-                    <ul class="space-y-3 text-gray-400">
-                        <li><a href="#" class="hover:text-white">Support</a></li>
-                        <li><a href="#" class="hover:text-white">Privacy policy</a></li>
-                        <li><a href="#" class="hover:text-white">Terms of use</a></li>
-                    </ul>
+                    <div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                        </div>
+                        <h3>Email</h3>
+                        <p>
+                            <a href="mailto:ahmad.rizki@email.com"> ahmad.rizki@email.com </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.517 4.55a1 1 0 01-.272 1.027l-2.012 2.012a11.042 11.042 0 005.516 5.516l2.012-2.012a1 1 0 011.027-.272l4.55 1.517a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <h3>Whatsapp</h3>
+                        <p>
+                            <a href="https://wa.me/6281234567890">+62 812 3456 7890</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 11c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 22s8-7.582 8-12A8 8 0 104 10c0 4.418 8 12 8 12z" />
+                            </svg>
+                        </div>
+                        <h3>Lokasi</h3>
+                        <p>Jakarta, Indonesia</p>
+                    </div>
                 </div>
             </div>
+        </section>
+    </main>
 
-            <!-- Divider -->
-            <div class="border-t border-gray-800 pt-8">
-                <p class="text-center text-gray-500 text-sm">©2025 APOLLO - All rights reserved</p>
-            </div>
-        </div>
+    <footer>
+        <p>&copy; 2025 Ahmad Rizki. Semua hak dilindungi.</p>
     </footer>
-
-    <script>
-        // Add smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-
-        // Add button interactivity
-        document.querySelectorAll('button').forEach(button => {
-            button.addEventListener('click', function() {
-                console.log('[v0] Button clicked:', this.textContent);
-            });
-        });
-    </script>
 </body>
+
 </html>
